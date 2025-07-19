@@ -76,6 +76,7 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
 Before deploying organization-wide, it's recommended to test the add-on:
 
 1. Click "Deploy" → "Test deployments"
+  - **Note:** If your Google Apps Script deployment is stuck on "Loading development", it's often due to a temporary issue, cache corruption, or an underlying script error. Restart your browser and try again.
 2. In the window opened click "Install" to install addon
 3. Click "Done"
 4. Open Gmail in a new tab
