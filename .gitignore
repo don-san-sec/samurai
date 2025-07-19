@@ -1,0 +1,40 @@
+# Google Apps Script
+.clasp.json
+.clasprc.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local configuration
+local-config.js
+config.local.js
+
+# Node (if using clasp)
+node_modules/
+package-lock.json
+
+# Backup files
+*.backup
+*.bak
+
+
+
+# Personal notes
+notes.txt
+TODO.txt
+scratch.js
