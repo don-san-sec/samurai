@@ -1,6 +1,6 @@
 # Samurai - Gmail Phishing Reporter
 
-<img alt="" src=".github/media/logo_light.png" width="100%" align="right">
+<img alt="" src=".github/media/logo.png" width=100 align="right">
 
 A simple Gmail add-on that helps users report suspicious emails to their security team with one click. When a user reports an email, it's automatically forwarded as an .eml attachment to the security team, preserving all headers for forensic analysis.
 
@@ -16,7 +16,7 @@ A simple Gmail add-on that helps users report suspicious emails to their securit
 
 ## How It Works
 
-<img alt="" src=".github/media/addon-interface.png" width="100%" align="right">
+<img alt="" src=".github/media/addon-interface.png" width=200 align="right">
 
 1. User selects a suspicious email in Gmail
 2. Clicks on Samurai in the Gmail sidebar
@@ -30,7 +30,6 @@ A simple Gmail add-on that helps users report suspicious emails to their securit
 
 ## What Security Teams Receive
 
-<img alt="" src=".github/media/phishing-report-example.png" width="100%" align="right">
 
 Each report includes:
 - Original email as .eml attachment (preserves all headers and content)
@@ -41,6 +40,8 @@ Each report includes:
   - List of attachments (if any)
   - Reply-To field highlighted if different from sender (common phishing indicator)
 - For investigation requests: Clear indicator that user expects a response
+
+<img alt="" src=".github/media/phishing-report-example.png">
 
 
 ## Quick Start
