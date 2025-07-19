@@ -14,6 +14,11 @@ A simple Gmail add-on that helps users report suspicious emails to their securit
 - **No external dependencies** - Runs entirely within Google Workspace
 - **Minimal permissions** - Only requests necessary Gmail access
 
+## Installation
+## 📋 Installation
+
+Ready to deploy Samurai in your organization? Follow our comprehensive [Installation Guide](INSTALL.md) for step-by-step instructions.
+
 ## How It Works
 
 <img alt="" src=".github/media/addon-interface.png" width=200 align="right">
@@ -30,7 +35,6 @@ A simple Gmail add-on that helps users report suspicious emails to their securit
 
 ## What Security Teams Receive
 
-
 Each report includes:
 - Original email as .eml attachment (preserves all headers and content)
 - Enhanced report summary with:
@@ -43,20 +47,9 @@ Each report includes:
 
 <img alt="" src=".github/media/phishing-report-example.png">
 
-
-## Quick Start
-
-1. **Configure** - Update SECURITY_EMAIL in src/Config.js
-2. **Deploy** - Follow the [Installation Guide](INSTALL.md)
-3. **Install** - Deploy to your organization via Google Admin Console
-
 ## Security
 
 - No data is stored or sent outside your Google Workspace
 - All processing happens within Gmail
 - Minimal OAuth scopes requested
 - Simple, auditable codebase
-
-## Support
-
-For installation assistance or issues, please refer to the [Installation Guide](INSTALL.md) or contact your IT administrator.
