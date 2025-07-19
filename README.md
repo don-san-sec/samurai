@@ -34,6 +34,8 @@ Ready to deploy Samurai in your organization? Follow our comprehensive [Installa
 
 ## What Security Teams Receive
 
+<img alt="" src=".github/media/phishing-report-example.png">
+
 Each report includes:
 - Original email as .eml attachment (preserves all headers and content)
 - Enhanced report summary with:
@@ -44,7 +46,6 @@ Each report includes:
   - Reply-To field highlighted if different from sender (common phishing indicator)
 - For investigation requests: Clear indicator that user expects a response
 
-<img alt="" src=".github/media/phishing-report-example.png">
 
 ## Security
 
