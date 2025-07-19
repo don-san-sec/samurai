@@ -11,8 +11,10 @@ const CONFIG = {
   INVESTIGATION_PREFIX: "[INVESTIGATION]", // User expects response from security team
 
   // Add-on branding
-  LOGO_URL: "https://i.imgur.com/bwdpZqO.png",
-  BANNER_URL: "https://i.imgur.com/SlXMoCT.png",
+  LOGO_URL:
+    "https://raw.githubusercontent.com/don-san-sec/samurai/e3270f77f661b5eb0480241a20b655767e530ca7/assets/logo.png",
+  BANNER_URL:
+    "https://raw.githubusercontent.com/don-san-sec/samurai/e3270f77f661b5eb0480241a20b655767e530ca7/assets/banner.png",
 };
 
 /**
