@@ -71,7 +71,23 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
    ✓ Installation complete - Ready for deployment
    ```
 
-## Step 6: Deploy the Add-on
+## Step 6: Test Deployment (Recommended)
+
+Before deploying organization-wide, it's recommended to test the add-on:
+
+1. Click "Deploy" → "Test deployments"
+2. In the window opened click "Install" to install addon
+3. Click "Done"
+4. Open Gmail in a new tab
+5. Test the add-on functionality. Verify:
+   - The add-on appears in the sidebar
+   - Clicking "Report Phishing" works correctly
+   - Clicking "Request Investigation" works correctly
+   - Reports are sent successfully
+
+## Step 7: Production Deployment
+
+Once testing is complete:
 
 1. Click "Deploy" → "New deployment"
 2. Click the gear icon → Select "Add-on"
@@ -82,9 +98,7 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
 4. Click "Deploy"
 5. **Save the Deployment ID** (you'll need this for installation)
 
-## Step 7: Install in Google Workspace
-
-### For Organization-wide Installation:
+## Step 8: Install in Google Workspace
 
 1. Go to [admin.google.com](https://admin.google.com)
 2. Navigate to: Apps → Google Workspace → Gmail → Add-ons
@@ -96,14 +110,7 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
    - **Organizational units:** Select pilot groups or entire organization
 7. Click "Install"
 
-### For Individual Testing:
-
-1. Open Gmail
-2. Click the + icon in the sidebar
-3. Search for your deployment ID
-4. Install the add-on
-
-## Step 8: Verify Installation
+## Step 9: Verify Installation
 
 1. Open Gmail (may need to refresh)
 2. Select any email
