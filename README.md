@@ -15,7 +15,6 @@ A simple Gmail add-on that helps users report suspicious emails to their securit
 - **Minimal permissions** - Only requests necessary Gmail access
 
 ## Installation
-## 📋 Installation
 
 Ready to deploy Samurai in your organization? Follow our comprehensive [Installation Guide](INSTALL.md) for step-by-step instructions.
 
