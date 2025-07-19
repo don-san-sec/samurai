@@ -20,7 +20,7 @@ Ready to deploy Samurai in your organization? Follow our comprehensive [Installa
 
 ## How It Works
 
-<img alt="" src=".github/media/addon-interface.png" width=200 align="right">
+<img alt="" src=".github/media/addon-interface.png">
 
 1. User selects a suspicious email in Gmail
 2. Clicks on Samurai in the Gmail sidebar
