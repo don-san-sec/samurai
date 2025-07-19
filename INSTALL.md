@@ -5,6 +5,9 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
 ⏱️ **Estimated time:** 15-20 minutes <br>
 👤 **Required role:** Google Workspace Administrator
 
+> [!IMPORTANT]
+> Complete all steps in order. Do not skip the testing phase (Step 6) before deploying organization-wide.
+
 ## Prerequisites
 
 **For testing (any user):**
@@ -39,7 +42,8 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
 
 ## Step 4: Add Project Files
 
-**Important:** Create files in this exact order:
+> [!WARNING]
+> Create files in this exact order. Creating them out of order may cause dependency issues.
 
 ### 4.1 Create Config.js
 1. Click the "+" next to "Files" → "Script"
@@ -47,6 +51,10 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
 3. Replace contents with `src/Config.js`
 4. **Update `SECURITY_EMAIL` with your actual security team email**
 5. Save
+
+> [!IMPORTANT]
+> You must update the `SECURITY_EMAIL` variable in Config.js with your actual security team email address. The add-on will not work properly without this configuration.
+
 
 ### 4.2 Create Main.js
 1. Click the "+" next to "Files" → "Script"
@@ -91,10 +99,13 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
    - ✅ Security team receives test reports
    - ✅ No error messages appear
 
-**Troubleshooting:** If deployment is stuck on "Loading development":
-- Clear browser cache and cookies
-- Try in an incognito/private window
-- Restart your browser
+> [!IMPORTANT]
+> **Deployment Stuck on "Loading development"**
+>
+> If your test deployment won't load, try these solutions:
+> - Clear browser cache and cookies
+> - Try in an incognito/private window
+> - Restart your browser
 
 ## Step 7: Production Deployment
 
@@ -105,9 +116,14 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
    - **Execute as:** `Me`
    - **Who has access:** `Anyone within [your-domain.com]`
 4. Click "Deploy"
-5. **📋 IMPORTANT:** Copy and save the Deployment ID - you'll need this for installation
 
-💡 **Tip:** The Deployment ID looks like: `AKfycby...` (long string starting with "AKfycby")
+> [!IMPORTANT]
+> **Save Your Deployment ID**
+>
+> The Deployment ID is essential for organizational installation. Copy it immediately and store it safely.
+>
+> **Format:** `AKfycby...` (long string starting with "AKfycby")
+> **Where to save:** Share with your admin or save in your deployment notes
 
 
 ## Step 8: Install in Google Workspace
@@ -122,7 +138,8 @@ Complete installation instructions for deploying the Samurai Gmail phishing repo
    - **Organizational units:** Select pilot groups or entire organization
 7. Click "Install"
 
-⏳ **Note:** Installation may take 5-10 minutes to propagate across your organization.
+> [!NOTE]
+> Installation may take 5-10 minutes to propagate across your organization.
 
 ## Step 9: Verify Installation
 
